@@ -18,6 +18,7 @@ public class TestController {
 		response.sendRedirect("swagger-ui.html");
 	}
 
+	
 	@GetMapping("/msg")
 	public String welcome() {
 		return "welcome message";
